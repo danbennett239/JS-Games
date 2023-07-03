@@ -1,0 +1,31 @@
+.word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -270%)
+}
+.word {
+  display: flex;
+  flex-direction: row;
+}
+.word div {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
+}
+.win {
+  color: #6ab04c;
+}
+.loss {
+  color: #eb4d4b;
+}
+.loading-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -130%)
+}
